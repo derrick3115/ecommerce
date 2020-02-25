@@ -220,17 +220,17 @@
 
 
 </div>
-<div class="sum2"><center>
+<div class="sum2">
 <h8><h3>Blog Posts</h3>
   <p style="color: red;">Duis aute dolor in reprehenderit</p>
 in voluptate velit esse cillium dolore eu fugiat
-nulla pariatur</h9>
+nulla pariatur
 <h3>Ut enim ad minim veniam.</h3>
 <h8>in volupatable velit esse cillum dolore eu fugiat
 nulla pariatur</h8>
 <h3>Officia deserunt molit consecteur.</h3>
 <h8>in volupatable velit <br> esse cillum dolore eu fugiat
-nulla pariatur</h8></center>
+nulla pariatur</h8>
 </div>
 <div class="sum3">
   <div class="one">
