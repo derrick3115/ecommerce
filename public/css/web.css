@@ -12,12 +12,13 @@
 } */
 .navbar-menu{
     margin-left: 30px;
+    width: 100%;
 }
 .nav2{
     padding: 43px;
     font-family: Arial, Helvetica, sans-serif;
     
-    width: 1400px; 
+    width: 100%; 
     height: 300px; 
     background-image: url('../img/1.jpg') ;
 }
@@ -92,13 +93,13 @@ h4 {
  }
 .goods{
     background-color:none;
-    width: 1400px; 
+    width: 100%; 
     height: 600px;
     margin-top: 40px;
 }
 .bod{
     background-color: honeydew;
-    width: 200px;
+    width: 100%;
     height: 200px;
 }
 .image{
@@ -133,6 +134,7 @@ border-spacing: 12px;
 }
 .bfooter{
     padding: 500px;
+    width: 100%;
     }
 .level-item,.level{
     border-style: none;
@@ -148,7 +150,7 @@ border-spacing: 12px;
     margin-left:px;
     margin-top: -420px;
     background-color: whitesmoke;
-    width: 2000px;
+    width: 100%;
     height: 400px;
     background-position:center;
     font-family: 'Times New Roman', Times, serif;
@@ -202,6 +204,7 @@ h1{
 footer{
     height: 50px;
     background-color: whitesmoke;
+    width: 100%;
 }
 footer .text{
     margin-left: 100px;
