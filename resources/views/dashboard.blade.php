@@ -15,11 +15,15 @@
        <link href="../sass/web.css" rel="stylesheet" type="text/css"/> -->
 <link rel="stylesheet" href="css/web.css"/>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!-- <link href="https://fonts.googleapis.com/css?family=Dosis|Ubuntu&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet"> -->
+
+
       </head>
 <body>
 <nav class="navbar" role="navigation" aria-label="main navigation" style='margin-left: 100px;';>
   <div class="navbar-brand">
-    <strong class="navbar-item" style="border-right-style: groove; ";>
+    <strong class="navbar-item" style="border-right-style: groove; word-spacing: 2px;";>
       LA SHOOPA
     
 </strong>
@@ -50,9 +54,9 @@
     <div class="navbar-end">
       <div class="navbar-item">
         <!-- <div class="buttons"> -->
-          <div class="nav">
-        <a href="" ><i class='fas fa-shopping-cart' style='font-size:26px; color:black';></i></a>
-        </div>
+          <button class="button4">
+        <a href="" ><i class='fas fa-shopping-cart' style='font-size:26px; color:grey';></i></a>
+</button>
       </div>
     </div>
   </div>
@@ -63,7 +67,7 @@
       NEW SEASON ARRIVALS.
 </strong>
 <h5 class="h5">CHECK OUT ALL THE TRENDS.</h5>
-<button class="button" style="margin-top:50px;margin-left:190px;">SHOP NOW</button>
+<button class="button2">SHOP NOW</button>
 </section>  
   </section>
 
@@ -74,30 +78,33 @@
   <div class="w3-container">
   <h2></h2>
 
-  <div class="w3-card-4" style="width:15%; height:40%;">
+  <div class="w3-card-4" style="width:18%; height:40%;">
     <img src="../img/men1.jpg" alt="Shop" style="width:100%">
     <div class="w3center">
-      <p>The Italian / Austrian Alps</p>
+      <p class="money">The Italian / Austrian Alps</p>
+      <p class="money">$300</p>
     </div>
   </div>
 </div>
 <div class="w3-container">
   <h2></h2>
 
-  <div class="w3-card-4" style="width:15%; height:40%;">
+  <div class="w3-card-4" style="width:18%; height:40%;">
     <img src="../img/men2.jpg" alt="Shop" style="width:100%">
     <div class="w3center">
-      <p>The Italian / Austrian Alps</p>
+      <p class="money">The Italian / Austrian Alps</p>
+      <p class="money">$800</p>
     </div>
   </div>
 </div>
 <div class="w3-container">
   <h2></h2>
 
-  <div class="w3-card-4" style="width:15%; height:40%;">
+  <div class="w3-card-4" style="width:18%; height:40%;">
     <img src="../img/men3.jpg" alt="Shop" style="width:100%">
     <div class="w3center">
-      <p>The Italian / Austrian Alps</p>
+      <p class="money">The Italian / Austrian Alps</p>
+      <p class="money">$200</p>
     </div>
   </div>
 </div>
@@ -106,30 +113,33 @@
   <div class="w3-container">
   <h2></h2>
 
-  <div class="w3-card-4" style="width:25%; height:40%;">
+  <div class="w3-card-4" style="width:27%; height:38%;">
     <img src="../img/men4.jpg" alt="Shop" style="width:100%">
     <div class="w3center">
-      <p>The Italian / Austrian Alps</p>
+      <p class="money">The Italian / Austrian Alps</p>
+      <p class="money">$500</p>
     </div>
   </div>
 </div>
 <div class="w3-container">
   <h2></h2>
 
-  <div class="w3-card-4" style="width:25%; height:40%;">
+  <div class="w3-card-4" style="width:27%; height:38%;">
     <img src="../img/men5.jpg" alt="Shop" style="width:100%">
     <div class="w3center">
-      <p>The Italian / Austrian Alps</p>
+      <p class="money">The Italian / Austrian Alps</p>
+      <p class="money">$200</p>
     </div>
   </div>
 </div>
 <div class="w3-container">
   <h2></h2>
 
-  <div class="w3-card-4" style="width:25%; height:40%;">
+  <div class="w3-card-4" style="width:27%; height:38%;">
     <img src="../img/men6.jpg" alt="Shop" style="width:100%">
     <div class="w3center">
-      <p>The Italian / Austrian Alps</p>
+      <p class="money">The Italian / Austrian Alps</p>
+      <p class="money">$200</p>
     </div>
   </div>
 </div>
@@ -138,30 +148,33 @@
   <div class="w3-container">
   <h2></h2>
 
-  <div class="w3-card-4" style="width:50%; height:40%;">
+  <div class="w3-card-4" style="width:52%; height:38%;">
     <img src="../img/men7.jpg" alt="Shop" style="width:100%">
     <div class="w3center">
-      <p>The Italian / Austrian Alps</p>
+      <p class="money">The Italian / Austrian Alps</p>
+      <p class="money">$900</p>
     </div>
   </div>
 </div>
 <div class="w3-container">
   <h2></h2>
 
-  <div class="w3-card-4" style="width:50%; height:40%;">
+  <div class="w3-card-4" style="width:52%; height:38%;">
     <img src="../img/men8.jpg" alt="Shop" style="width:100%">
     <div class="w3center">
-      <p>The Italian / Austrian Alps</p>
+      <p class="money">The Italian / Austrian Alps</p>
+      <p class="money">$700</p>
     </div>
   </div>
 </div>
 <div class="w3-container">
   <h2></h2>
 
-  <div class="w3-card-4" style="width:50%; height:40%;">
+  <div class="w3-card-4" style="width:52%; height:38%;">
     <img src="../img/men9.jpg" alt="Shop" style="width:100%">
     <div class="w3center">
-      <p>The Italian / Austrian Alps</p>
+      <p class="money">The Italian / Austrian Alps</p>
+      <p class="money">$1000</p>
     </div>
   </div>
 </div>
@@ -203,16 +216,16 @@
 </section>
 <section class="summary">
   <div class="sum1">
-    <h3>Our Stories</h3><br>
+    <b>Our Stories</b><br>
     <h6>1401 south Grand Avenue<br>
       Los Angeles,CA 90015<br>
-      <b>(213)748-2411</b>
+      <b class="num">(213)748-2411</b>
       <br>
       <br>
       <br>
       100 Fairview Drive<br>
       Franklin,VA 23851<br>
-      <b>(757)569-6100</b><br><br>
+      <b class="num">(757)569-6100</b><br><br>
 
       
       </h6>
@@ -221,20 +234,20 @@
 
 </div>
 <div class="sum2">
-<h8><h3>Blog Posts</h3>
-  <p style="color: red;">Duis aute dolor in reprehenderit</p>
+<h8><b>Blog Posts</b>
+  <h6 style="color: red;">Duis aute dolor in reprehenderit</h6>
 in voluptate velit esse cillium dolore eu fugiat
-nulla pariatur</h9>
-<h3>Ut enim ad minim veniam.</h3>
+nulla pariatur</h8><br>
+<b style="word-spacing: 2px;">Ut enim ad minim veniam.</b><br>
 <h8>in volupatable velit esse cillum dolore eu fugiat
-nulla pariatur</h8>
-<h3>Officia deserunt molit consecteur.</h3>
+nulla pariatur<br><br>
+<b style="word-spacing: 2px;">Complicated word.</b><br>
 <h8>in volupatable velit <br> esse cillum dolore eu fugiat
 nulla pariatur</h8>
 </div>
 <div class="sum3">
   <div class="one">
-  <h3>Support</h3>
+  <b style="word-spacing: 2px;">Support</b><br><br>
   <a href="">Term& Conditions</a>
   <a href="">FAQ</a><br>
   <a href="">Payment</a><br>

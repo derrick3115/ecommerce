@@ -1,4 +1,4 @@
-.nav{
+/* .nav{
     padding: 10px;
     background-color: white;
   color: black;
@@ -7,9 +7,16 @@
   border-width: 10px;
   border-color: white;
   border-style: ridge;
-  margin-right: 100px;
+  margin-right: 200px;
+  /* font-family: 'Dosis' ,; */
+} */
+.navbar-menu{
+    margin-left: 30px;
 }
 .nav2{
+    padding: 43px;
+    font-family: Arial, Helvetica, sans-serif;
+    
     width: 1400px; 
     height: 300px; 
     background-image: url('../img/1.jpg') ;
@@ -18,17 +25,48 @@
     color: #ffffff;
     margin-left: 150px;
     padding: 40px;
-    font-family: serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: initial;
     word-spacing: 10px;
     line-height: 3%;
     font-size: larger;
 }
+.button2 {
+	box-shadow:inset 0px 50px 0px -15px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+	background-color:#ffffff;
+	border:3px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Times New Roman;
+	font-size:16px;
+	font-weight:bold;
+	padding:16px 60px;
+    text-decoration:none;
+    margin-left: 190px;
+}
+.button2:hover {
+	background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+	background-color:#ffffff;
+}
+.button2:active {
+	position:relative;
+	top:1px;
+}
+.button4{
+    padding: 10px;
+    background-color:white;
+  color: white;
+   border-color:black;
+  margin-right: 200px;
+    border-radius: 17px;}
+
 .h5{
     color: #ffffff;
     margin-left: 150px;
     padding: 40px;
-    font-family: serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: initial;
     word-spacing: 10px;
     line-height: 3%;
@@ -85,17 +123,17 @@ h4 {
 }
 .page2{
 margin-left: 600px;
-margin-top: -870px;
-border-spacing: 10px;
+margin-top: -872px;
+border-spacing: 12px;
 }
 .page3{
     margin-left: 1000px;
-    margin-top: -870px;
-    border-spacing: 10px;
+    margin-top: -861px;
+    border-spacing: 12px;
 }
 .bfooter{
     padding: 500px;
-}
+    }
 .level-item,.level{
     border-style: none;
     line-height: normal;
@@ -114,6 +152,7 @@ border-spacing: 10px;
     height: 400px;
     background-position:center;
     font-family: 'Times New Roman', Times, serif;
+   
 }
  .sum1{
     background-color:none;
@@ -121,9 +160,10 @@ border-spacing: 10px;
     height: 300px;
     border-spacing: 10px;
     color: black;
-    margin-left: 10px;
+    margin-left: 100px;
     margin-top: 10px;
     font-family: 'Times New Roman', Times, serif;
+    padding: 50px;
 }
 .sum2{
       background-color:none;
@@ -131,8 +171,8 @@ border-spacing: 10px;
     height: 300px;
     border-spacing: 10px;
     color: black;
-    margin-left: 300px;
-    margin-top: -310px;
+    margin-left: 400px;
+    margin-top: -250px;
     text-align: justify;
 }
 .sum3 .one{
@@ -141,7 +181,7 @@ border-spacing: 10px;
     height: 300px;
     border-spacing: 10px;
     color: black;
-    margin-left: 620px;
+    margin-left: 730px;
     margin-top: -310px;
 } 
 h1{
@@ -155,9 +195,10 @@ h1{
     height: 300px;
     border-spacing: 10px;
     color: black;
-    margin-left: 300px;
-    margin-top: -130px;
+    margin-left: 170px;
+    margin-top: -112px;
 }
+
 footer{
     height: 50px;
     background-color: whitesmoke;
@@ -168,4 +209,23 @@ footer .text{
 footer .icon{
     margin-left: 1000px;
     margin-top: -20px;
+}
+.goods .w3-card-4 img{
+padding: 20px;
+float: center;
+width: 60px;
+height: 200px;
+padding-left: auto;
+padding-right: auto;
+}
+.money{
+    text-align: center;
+}
+b{
+    font-size: larger;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.num{
+    font-size: medium;
 }
