@@ -139,7 +139,7 @@ border-spacing: 12px;
     }
 .level-item,.level{
     width: auto;
-    border-style: solid;
+    border-style: none;
     border-color: lightgray;
     line-height: normal;
     line-break: normal;
@@ -148,6 +148,7 @@ border-spacing: 12px;
     border-spacing: unset;
     width: 200px; */
     justify-content: center;
+    font-size: small;
 
 }
 .summary{
@@ -239,6 +240,7 @@ b{
     display: flex;
     justify-content: center;
     background-color: none;
+    grid-gap: 40px;
     
   }
   
