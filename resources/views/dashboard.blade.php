@@ -73,111 +73,65 @@
 
   <section class="goods">
   <h4><span>Latest Goods</span></h4>
-
-    <div class="page1">
-  <div class="w3-container">
-  <h2></h2>
-
-  <div class="w3-card-4" style="width:18%; height:40%;">
-    <img src="../img/men1.jpg" alt="Shop" style="width:100%">
-    <div class="w3center">
-      <p class="money">The Italian / Austrian Alps</p>
-      <p class="money">$300</p>
-    </div>
+  <div class="flex-container">
+  <div class="w3-card-4">
+  <img src="../img/men1.jpg" alt="Alps" style="width:100%;">
+  <div class="w3center">
+    <p>The Italian / Austrian Alps</p>
   </div>
 </div>
-<div class="w3-container">
-  <h2></h2>
-
-  <div class="w3-card-4" style="width:18%; height:40%;">
-    <img src="../img/men2.jpg" alt="Shop" style="width:100%">
-    <div class="w3center">
-      <p class="money">The Italian / Austrian Alps</p>
-      <p class="money">$800</p>
-    </div>
+<div class="w3-card-4">
+  <img src="../img/men2.jpg" alt="Alps" style="width:100%;">
+  <div class="w3center">
+    <p>The Italian / Austrian Alps</p>
   </div>
 </div>
-<div class="w3-container">
-  <h2></h2>
-
-  <div class="w3-card-4" style="width:18%; height:40%;">
-    <img src="../img/men3.jpg" alt="Shop" style="width:100%">
-    <div class="w3center">
-      <p class="money">The Italian / Austrian Alps</p>
-      <p class="money">$200</p>
-    </div>
+<div class="w3-card-4">
+  <img src="../img/men3.jpg" alt="Alps" style="width:100%;">
+  <div class="w3center">
+    <p>The Italian / Austrian Alps</p>
+  </div>
+</div> 
+</div>
+<div class="flex-container">
+  <div class="w3-card-4">
+  <img src="../img/men4.jpg" alt="Alps" style="width:100%;">
+  <div class="w3center">
+    <p>The Italian / Austrian Alps</p>
   </div>
 </div>
-</div>
-<div class="page2">
-  <div class="w3-container">
-  <h2></h2>
-
-  <div class="w3-card-4" style="width:27%; height:38%;">
-    <img src="../img/men4.jpg" alt="Shop" style="width:100%">
-    <div class="w3center">
-      <p class="money">The Italian / Austrian Alps</p>
-      <p class="money">$500</p>
-    </div>
+<div class="w3-card-4">
+  <img src="../img/men5.jpg" alt="Alps" style="width:100%;">
+  <div class="w3center">
+    <p>The Italian / Austrian Alps</p>
   </div>
 </div>
-<div class="w3-container">
-  <h2></h2>
-
-  <div class="w3-card-4" style="width:27%; height:38%;">
-    <img src="../img/men5.jpg" alt="Shop" style="width:100%">
-    <div class="w3center">
-      <p class="money">The Italian / Austrian Alps</p>
-      <p class="money">$200</p>
-    </div>
+<div class="w3-card-4">
+  <img src="../img/men6.jpg" alt="Alps" style="width:100%;">
+  <div class="w3center">
+    <p>The Italian / Austrian Alps</p>
+  </div>
+</div> 
+</div>
+<div class="flex-container">
+  <div class="w3-card-4">
+  <img src="../img/men7.jpg" alt="Alps" style="width:100%;">
+  <div class="w3center">
+    <p>The Italian / Austrian Alps</p>
   </div>
 </div>
-<div class="w3-container">
-  <h2></h2>
-
-  <div class="w3-card-4" style="width:27%; height:38%;">
-    <img src="../img/men6.jpg" alt="Shop" style="width:100%">
-    <div class="w3center">
-      <p class="money">The Italian / Austrian Alps</p>
-      <p class="money">$200</p>
-    </div>
+<div class="w3-card-4">
+  <img src="../img/men8.jpg" alt="Alps" style="width:100%;">
+  <div class="w3center">
+    <p>The Italian / Austrian Alps</p>
   </div>
 </div>
-</div>
-<div class="page3">
-  <div class="w3-container">
-  <h2></h2>
-
-  <div class="w3-card-4" style="width:52%; height:38%;">
-    <img src="../img/men7.jpg" alt="Shop" style="width:100%">
-    <div class="w3center">
-      <p class="money">The Italian / Austrian Alps</p>
-      <p class="money">$900</p>
-    </div>
+<div class="w3-card-4">
+  <img src="../img/men9.jpg" alt="Alps" style="width:100%;">
+  <div class="w3center">
+    <p>The Italian / Austrian Alps</p>
   </div>
-</div>
-<div class="w3-container">
-  <h2></h2>
-
-  <div class="w3-card-4" style="width:52%; height:38%;">
-    <img src="../img/men8.jpg" alt="Shop" style="width:100%">
-    <div class="w3center">
-      <p class="money">The Italian / Austrian Alps</p>
-      <p class="money">$700</p>
-    </div>
-  </div>
-</div>
-<div class="w3-container">
-  <h2></h2>
-
-  <div class="w3-card-4" style="width:52%; height:38%;">
-    <img src="../img/men9.jpg" alt="Shop" style="width:100%">
-    <div class="w3center">
-      <p class="money">The Italian / Austrian Alps</p>
-      <p class="money">$1000</p>
-    </div>
-  </div>
-</div>
+</div> 
 </div>
 </section>
 <section class="bfooter">
