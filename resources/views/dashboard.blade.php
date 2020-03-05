@@ -17,59 +17,71 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <!-- <link href="https://fonts.googleapis.com/css?family=Dosis|Ubuntu&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet"> -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
       </head>
 <body>
-<nav class="navbar" role="navigation" aria-label="main navigation" style='margin-left: 100px;';>
-  <div class="navbar-brand">
-    <strong class="navbar-item" style="border-right-style: groove; word-spacing: 2px;";>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span><Strong>LA SHOOPA</strong>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01" style="margin-left:200px;">
+  <strong class="navbar-item" style="border-right-style: groove; word-spacing: 2px;";>
       LA SHOOPA
     
 </strong>
-   
-  </div>
-
-  <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-start">
-      <a class="navbar-item">
-        Men
-      </a>
-
-      <a class="navbar-item">
-        Women
-      </a>
-      <a class="navbar-item">
-        About
-      </a>
-      <a class="navbar-item">
-        Blog
-      </a>
-      <a class="navbar-item">
-        Support
-      </a>
-
-    </div>
-
-    <div class="navbar-end">
-      <div class="navbar-item">
-        <!-- <div class="buttons"> -->
-          <button class="button4">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Men <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Women</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Support</a>
+      </li>
+      
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+    <button class="button4">
         <a href="" ><i class='fas fa-shopping-cart' style='font-size:26px; color:grey';></i></a>
 </button>
-      </div>
-    </div>
+    </form>
   </div>
 </nav>
-<section class="nav2">
-  <section class="words">
-    <strong class="strong">
-      NEW SEASON ARRIVALS.
-</strong>
-<h5 class="h5">CHECK OUT ALL THE TRENDS.</h5>
-<button class="button2">SHOP NOW</button>
-</section>  
-  </section>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+     
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="../img/1.jpg" alt="Los Angeles" style="width:100%;">
+        <div class="carousel-caption">    
+        <div class="bannertext">
+    <h1>NEW SEASON ARRIVALS.</h1>
+    
+    <h6>CHECK OUT ALL THE TRENDS.</h6><br>
+    <button class="button2">SHOP NOW</button>
+  </div>
+        </div>
+      </div>   
+  
+    </div>
+
 
   <section class="goods">
   <h4><span>Latest Goods</span></h4>
@@ -177,10 +189,19 @@
   </div>
 </nav>
 </section>
-<section class="summary">
-  <div class="sum1">
-    <b>Our Stories</b><br>
-    <h6>1401 south Grand Avenue<br>
+<!-- Footer -->
+<footer class="page-footer font-small mdb-color pt-4">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Footer links -->
+    <div class="row text-center text-md-left mt-3 pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Our Stories</h6>
+        <p>1401 south Grand Avenue<br>
       Los Angeles,CA 90015<br>
       <b class="num">(213)748-2411</b>
       <br>
@@ -191,50 +212,110 @@
       <b class="num">(757)569-6100</b><br><br>
 
       
-      </h6>
-      <i class="fab fa-facebook-f"></i>&nbsp;<i class="fab fa-twitter"></i>&nbsp;<i class="fab fa-google"></i>&nbsp;<i class="fab fa-vimeo-v"></i>&nbsp;
+      <i class="fab fa-facebook-f"></i>&nbsp;<i class="fab fa-twitter"></i>&nbsp;<i class="fab fa-google"></i>&nbsp;<i class="fab fa-vimeo-v"></i>&nbsp;</p>
+      </div>
+      <!-- Grid column -->
 
+      <hr class="w-100 clearfix d-md-none">
 
-</div>
-<div class="sum2">
-<h8><b>Blog Posts</b>
-  <h6 style="color: red;">Duis aute dolor in reprehenderit</h6>
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Blog Posts</h6>
+        <h6 style="color: red;">Duis aute dolor in reprehenderit</h6>
 in voluptate velit esse cillium dolore eu fugiat
 nulla pariatur</h8><br>
 <b style="word-spacing: 2px;">Ut enim ad minim veniam.</b><br>
 <h8>in volupatable velit esse cillum dolore eu fugiat
 nulla pariatur<br><br>
-<b style="word-spacing: 2px;">Complicated word.</b><br>
-<h8>in volupatable velit <br> esse cillum dolore eu fugiat
-nulla pariatur</h8>
-</div>
-<div class="sum3">
-  <div class="one">
-  <b style="word-spacing: 2px;">Support</b><br><br>
-  <a href="">Term& Conditions</a>
+
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="w-100 clearfix d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Support</h6>
+        <a href="">Term& Conditions</a>
   <a href="">FAQ</a><br>
   <a href="">Payment</a><br>
   <a href="">Refunds</a><br>
   <a href="">Track Order</a><br>
   <a href="">Services</a>
-  <div class="two">
-    <a href="">Services</a><br>
+      </div>
+
+      <!-- Grid column -->
+      <hr class="w-100 clearfix d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold"></h6>
+        <a href="">Services</a><br>
     <a href="">Press</a><br>
     <a href="">Blog</a><br>
     <a style="color: red;" href="">About us</a><br>
     <a href="">Contact Us</a>
-</div>
-</div>
-</section>
-<footer>
-<div class="text">&copy derrick.M
-</div>
-<div class="icon"><i class="fab fa-cc-mastercard"></i>&nbsp;<i class="fab fa-cc-visa"></i>&nbsp;<i class="fab fa-cc-paypal"></i>&nbsp;<i class="fab fa-cc-jcb"></i>&nbsp;<i class="fab fa-cc-amazon-pay"></i>
+      </div>
+      <!-- Grid column -->
 
+    </div>
+    <!-- Footer links -->
 
+    <hr>
 
+    <!-- Grid row -->
+    <div class="row d-flex align-items-center">
 
-</div>
+      <!-- Grid column -->
+      <div class="col-md-7 col-lg-8">
+
+        <!--Copyright-->
+        <p class="text-center text-md-left">&copy derrick.M
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-5 col-lg-4 ml-lg-0">
+
+        <!-- Social buttons -->
+        <div class="text-center text-md-right">
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-google-plus-g"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
 </footer>
+<!-- Footer -->
 </body>
 </html>
